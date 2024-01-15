@@ -1,6 +1,6 @@
 import streamlit as st
 from send_email import send_email
-
+#Sending Email to Company
 with st.form(key="send_email"):
     email_input=st.text_input("Enter email here")
     selector=st.selectbox('What topics you want to discuss?',('Job Inquires', 'Project Proposal', 'Other'))
